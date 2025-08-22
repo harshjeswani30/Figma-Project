@@ -1,0 +1,63 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;800&display=swap');
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: auto;
+}
+
+/* Custom font faces for gaming fonts */
+@font-face {
+  font-family: 'Voltec';
+  src: url('./fonts/Voltec Free Version.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atomos';
+  src: url('./fonts/Atomos Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Megaton';
+  src: url('./fonts/Megaton.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Scrolling text animation for NFT collection header */
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Fallback for custom fonts */
+body {
+  font-family: 'Orbitron', 'Press Start 2P', monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #00120a;
+}
+
+/* Remove default margins and paddings */
+* {
+  box-sizing: border-box;
+}
