@@ -1,6 +1,6 @@
 // Import custom fonts
-import atomosFont from './Atomos Regular.ttf';
-import voltecFont from './Voltec Free Version.otf';
+import atomosFont from './Atomos-Regular.ttf';
+import voltecFont from './Voltec-Free-Version.otf';
 import megatonFont from './Megaton.ttf';
 
 // Create font face declarations with fallbacks
