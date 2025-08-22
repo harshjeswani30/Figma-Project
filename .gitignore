@@ -94,6 +94,6 @@ ehthumbs.db
 Thumbs.db
 
 # Font files (if you don't want to track them)
-*.otf
-*.ttf
+# *.otf
+# *.ttf
 *.zip
