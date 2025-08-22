@@ -1,4 +1,4 @@
-import { TeamRank, TokenType, CollectionStatus } from '../types/enums';
+import { TokenType, CollectionStatus } from '../types/enums';
 // Data for NFT collections
 export const mockCollections = [
   {

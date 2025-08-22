@@ -1,5 +1,5 @@
 import React from 'react';
-import { TableRow, TableCell, Avatar, Typography, Stack, Box } from '@mui/material';
+import { TableRow, TableCell, Avatar, Typography, Stack } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { LeaderboardTeam } from '../../types/interfaces';
 import { formatTokenAmount } from '../../utils/formatters';
@@ -40,14 +40,7 @@ const TeamSubtitle = styled(Typography)(({ theme }) => ({
   color: theme.palette.text.primary
 }));
 
-const ScoreText = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Press Start 2P',
-  fontSize: '18px',
-  fontWeight: 400,
-  letterSpacing: '-0.54px',
-  textTransform: 'uppercase',
-  color: theme.palette.text.primary
-}));
+
 
 const RewardText = styled(Typography)(({ theme }) => ({
   fontFamily: 'Press Start 2P',

@@ -1,4 +1,4 @@
-import * as React from "react";
+
 import type { SVGProps } from "react";
 const Component = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 39.65 39.65" {...props}><defs><mask xmlns="http://www.w3.org/2000/svg" id="prefix__a" width={41} height={40} x={-0.458} y={-0.053} maskUnits="userSpaceOnUse" style={{
       maskType: "luminance"

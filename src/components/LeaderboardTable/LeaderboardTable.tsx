@@ -5,7 +5,7 @@ import {
   Table, 
   TableBody, 
   TableContainer, 
-  Paper 
+ 
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { LeaderboardTeam } from '../../types/interfaces';

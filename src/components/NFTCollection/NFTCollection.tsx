@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, Stack } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { NFTCollection as NFTCollectionType } from '../../types/interfaces';
 import NFTCard from '../NFTCard/NFTCard';
@@ -28,12 +28,9 @@ const HeaderText = styled(Typography)(({ theme }) => ({
   transition: 'transform 0.1s ease-out'
 }));
 
-const GridContainer = styled(Box)(({ theme }) => ({
-  border: `1px solid ${theme.palette.text.primary}`,
-  borderTop: 'none'
-}));
 
-const TopRow = styled(Box)(({ theme }) => ({
+
+const TopRow = styled(Box)({
   display: 'grid',
   gridTemplateColumns: '1fr 1fr 1fr 1fr',
   gap: '0px',
@@ -42,9 +39,9 @@ const TopRow = styled(Box)(({ theme }) => ({
     borderRight: 'none',
     borderBottom: 'none'
   }
-}));
+});
 
-const BottomRow = styled(Box)(({ theme }) => ({
+const BottomRow = styled(Box)({
   display: 'grid',
   gridTemplateColumns: '1fr 1fr 1fr 1fr',
   gap: '0px',
@@ -53,7 +50,7 @@ const BottomRow = styled(Box)(({ theme }) => ({
     borderRight: 'none',
     borderBottom: 'none'
   }
-}));
+});
 
 interface NFTCollectionProps {
   collections: NFTCollectionType[];

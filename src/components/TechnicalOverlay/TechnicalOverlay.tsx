@@ -24,14 +24,7 @@ const TechText = styled(Typography)(({ theme }) => ({
   color: theme.palette.text.primary
 }));
 
-const TechTextGreen = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Orbitron',
-  fontSize: '8px',
-  fontWeight: 400,
-  letterSpacing: '0.64px',
-  textTransform: 'capitalize',
-  color: '#21E786'
-}));
+
 
 interface TechnicalOverlayProps {
   data: TechnicalData;

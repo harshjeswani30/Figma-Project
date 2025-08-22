@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardMedia, Box, Typography, Button, Stack } from '@mui/material';
+import { Card, CardMedia, Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { NFTCollection } from '../../types/interfaces';
 import { formatTokenAmount } from '../../utils/formatters';
@@ -29,17 +29,7 @@ const NFTImage = styled(CardMedia)({
   width: '100%'
 });
 
-const PriceOverlay = styled(Box)(({ theme }) => ({
-  position: 'absolute',
-  bottom: 0,
-  left: 0,
-  right: 0,
-  backgroundColor: theme.palette.secondary.main,
-  padding: theme.spacing(2),
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center'
-}));
+
 
 const HoverOverlay = styled(Box)(({ theme }) => ({
   position: 'absolute',
@@ -90,9 +80,8 @@ const NFTCard: React.FC<NFTCardProps> = ({ collection, onBuyMint }) => {
   return (
     <StyledCard>
       <NFTImage
-        component="img"
         image="https://placehold.co/360x526"
-        alt={`NFT Collection ${collection.id}`}
+        title={`NFT Collection ${collection.id}`}
       />
       
       {/* Hover overlay for all cards */}

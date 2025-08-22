@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Stack } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 const HeaderContainer = styled(Box)(({ theme }) => ({

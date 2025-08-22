@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Stack } from '@mui/material';
+import { Box, Typography, Stack } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { TechnicalData } from '../../types/interfaces';
 import TechnicalOverlay from '../TechnicalOverlay/TechnicalOverlay';
@@ -25,23 +25,7 @@ const HeroContent = styled(Stack)(({ theme }) => ({
   marginTop: theme.spacing(-30)
 }));
 
-const StartGameButton = styled(Button)(({ theme }) => ({
-  border: `2px solid ${theme.palette.primary.main}`,
-  color: theme.palette.primary.main,
-  fontFamily: 'Orbitron',
-  fontSize: '11px',
-  fontWeight: 800,
-  textTransform: 'uppercase',
-  padding: theme.spacing(1.5, 4),
-  background: 'transparent',
-  borderRadius: 0,
-  clipPath: 'polygon(0 0, calc(100% - 20px) 0, 100% 100%, 20px 100%)',
-  position: 'relative',
-  '&:hover': {
-    backgroundColor: theme.palette.primary.main,
-    color: theme.palette.primary.contrastText
-  }
-}));
+
 
 const VectorImage = styled('img')({
   position: 'absolute',
