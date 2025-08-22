@@ -48,7 +48,7 @@ const HoverOverlay = styled(Box)(({ theme }) => ({
 }));
 
 const BuyButton = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Atomos',
+  fontFamily: 'var(--font-atomos, Atomos, Orbitron, monospace)',
   fontSize: '19.55px',
   fontWeight: 400,
   letterSpacing: '0.49px',
@@ -57,7 +57,7 @@ const BuyButton = styled(Typography)(({ theme }) => ({
 }));
 
 const PriceText = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Atomos',
+  fontFamily: 'var(--font-atomos, Atomos, Orbitron, monospace)',
   fontSize: '19.55px',
   fontWeight: 400,
   letterSpacing: '0.49px',

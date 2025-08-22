@@ -19,7 +19,7 @@ const CollectionHeader = styled(Box)(({ theme }) => ({
 }));
 
 const HeaderText = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Megaton',
+  fontFamily: 'var(--font-megaton, Megaton, Exo 2, monospace)',
   fontSize: '24px',
   fontWeight: 400,
   letterSpacing: '0.60px',

@@ -8,35 +8,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* Fallback font variables */
+  --font-atomos: 'Orbitron', monospace;
+  --font-voltec: 'Press Start 2P', monospace;
+  --font-megaton: 'Exo 2', monospace;
 }
 
 #root {
   margin: auto;
-}
-
-/* Custom font faces for gaming fonts */
-@font-face {
-  font-family: 'Voltec';
-  src: url('./fonts/Voltec Free Version.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Atomos';
-  src: url('./fonts/Atomos Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Megaton';
-  src: url('./fonts/Megaton.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 /* Scrolling text animation for NFT collection header */

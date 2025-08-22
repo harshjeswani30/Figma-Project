@@ -14,7 +14,7 @@ const FooterDivider = styled(Divider)(({ theme }) => ({
 }));
 
 const CopyrightText = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Voltec',
+  fontFamily: 'var(--font-voltec, Voltec, Press Start 2P, monospace)',
   fontSize: '15px',
   fontWeight: 400,
   textTransform: 'uppercase',

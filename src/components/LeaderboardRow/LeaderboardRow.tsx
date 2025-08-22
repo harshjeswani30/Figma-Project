@@ -21,7 +21,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 }));
 
 const TeamName = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Voltec',
+  fontFamily: 'var(--font-voltec, Voltec, Press Start 2P, monospace)',
   fontSize: '32.14px',
   fontWeight: 400,
   letterSpacing: '-0.54px',
@@ -31,7 +31,7 @@ const TeamName = styled(Typography)(({ theme }) => ({
 }));
 
 const TeamSubtitle = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Voltec',
+  fontFamily: 'var(--font-voltec, Voltec, Press Start 2P, monospace)',
   fontSize: '32.14px',
   fontWeight: 400,
   letterSpacing: '-0.54px',

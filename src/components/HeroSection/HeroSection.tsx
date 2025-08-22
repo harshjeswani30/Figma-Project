@@ -52,7 +52,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ technicalData, onStartGame })
             variant="h1" 
             sx={{ 
               color: 'black',
-              fontFamily: 'Atomos',
+              fontFamily: 'var(--font-atomos, Atomos, Orbitron, monospace)',
               WebkitTextStroke: '2px white',
               textStroke: '2px white'
             }}

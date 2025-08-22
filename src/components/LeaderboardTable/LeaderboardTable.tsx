@@ -21,7 +21,7 @@ const LeaderboardContainer = styled(Box)(({ theme }) => ({
 }));
 
 const LeaderboardTitle = styled(Typography)(({ theme }) => ({
-  fontFamily: 'Atomos',
+  fontFamily: 'var(--font-atomos, Atomos, Orbitron, monospace)',
   fontSize: '96px',
   fontWeight: 400,
   letterSpacing: '0.60px',
